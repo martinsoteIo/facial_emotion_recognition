@@ -1,0 +1,5 @@
+model,label,imgsz,total_detections,coverage_pct,avg_fps_cpu
+yolo8n_640,YOLOv8n  imgsz=640,640,1340,94.9,11.64
+yolo26n_640,YOLOv11n imgsz=640,640,1175,85.2,9.27
+yolo26n_1280,YOLOv11n imgsz=1280,1280,1088,79.2,2.41
+yolo26s_640,YOLOv11s imgsz=640,640,1241,91.3,3.6

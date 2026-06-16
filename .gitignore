@@ -1,0 +1,41 @@
+.history
+datasets/Facial emotion recognition.v1i.yolov8
+datasets/facial emotion.v1i.yolov8
+datasets/Facial Emotion.v1i.yolov8_2
+datasets/Human face emotions.v19i.yolov8
+# Ignorar absolutamente todos los archivos .zip dentro de la carpeta datasets
+datasets/**/*.zip
+datasets/*.zip
+datasets/*.2
+datasets/*.3
+datasets/combined_dataset/train
+datasets/combined_dataset/valid
+datasets/combined_dataset/test
+assets/angry.mp4
+assets/camera_D_0_00.mp4
+assets/camera_D_0_01.mp4
+assets/camera_D_0_02.mp4
+assets/camera_D_0_03.mp4
+assets/camera_D_0_04.mp4
+assets/camera_D_0_05.mp4
+assets/fear.mp4
+assets/happy.mp4
+assets/sad.mp4
+assets/surprise.mp4
+assets/happy.png
+assets/neutral.jpeg
+assets/experience_analytics_plot.pdf
+runs/benchmark_00
+runs/benchmark_video2
+*.pt
+papers/
+notebooks/.ipynb_checkpoints
+notebooks/*.txt
+/runs/benchmark_05/yolo8n_640_annotated.mp4
+/runs/benchmark_05/yolo26n_640_annotated.mp4
+/runs/benchmark_05/yolo26n_1280_annotated.mp4
+/runs/benchmark_05/yolo26s_640_annotated.mp4
+/runs/benchmark_05/benchmark_grid_2x2.mp4
+/runs/experience_analytics_plot.pdf
+runs/neutralJPEG_output.txt
+assets/camera_D_0_06.mp4
