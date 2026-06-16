@@ -133,11 +133,10 @@ pip install -r requirements.txt
 python notebooks/train.py
 ```
 
-### Real-time inference (webcam or video)
+### Real-time inference (image)
 
 ```bash
-python notebooks/inference.py --source 0              # webcam
-python notebooks/inference.py --source video.mp4      # video file
+python notebooks/inference.py
 ```
 
 ### Benchmark all 4 models on a video fragment
