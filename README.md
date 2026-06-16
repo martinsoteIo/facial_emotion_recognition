@@ -166,7 +166,7 @@ The benchmark generates:
 ## Known Limitations
 
 - **Eyeglasses / ocular occlusion:** Thick frames and lens reflections introduce artificial edge gradients that occlude critical ocular features. All models default to `neutral` in these cases. Future work will address this via augmented training data with occluded subjects.
-- **Training duration:** Models were trained for 10 epochs due to cloud GPU session constraints. Longer training may improve convergence, particularly for the `fear` and `neutral` boundary.
+- **Training duration:** Models were trained for 40 epochs due to cloud GPU session constraints.
 - **Dataset bias:** The corpus consists primarily of frontal, unoccluded faces. Performance may degrade on extreme head poses or low-light conditions.
 
 ---
