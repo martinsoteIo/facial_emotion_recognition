@@ -27,7 +27,6 @@ assets/neutral.jpeg
 assets/experience_analytics_plot.pdf
 runs/benchmark_00
 runs/benchmark_video2
-*.pt
 papers/
 notebooks/.ipynb_checkpoints
 notebooks/*.txt
